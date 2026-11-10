@@ -1,0 +1,16 @@
+{
+"name": "tiles_xyz/poi",
+"description": "tiles_xyz/poi",
+"version": "2",
+"minzoom": "10",
+"maxzoom": "14",
+"center": "8.237125,49.447838,14",
+"bounds": "8.237125,49.447838,8.239479,49.453282",
+"antimeridian_adjusted_bounds": "8.237125,49.447838,8.239479,49.453282",
+"type": "overlay",
+"strategies": "[{},{},{},{},{},{},{},{},{},{},{\"dropped_by_rate\":2},{\"dropped_by_rate\":2},{\"dropped_by_rate\":2},{\"dropped_by_rate\":1},{}]",
+"format": "pbf",
+"generator": "tippecanoe v2.62.5",
+"generator_options": "tippecanoe -e tiles_xyz/poi -l poi -Z10 -z14 --drop-densest-as-needed --no-tile-compression --force data/poi.geojson",
+"json": "{\"vector_layers\":[{\"id\":\"poi\",\"description\":\"\",\"minzoom\":10,\"maxzoom\":14,\"fields\":{\"@id\":\"String\",\"addr:city\":\"String\",\"addr:country\":\"String\",\"addr:housenumber\":\"String\",\"addr:postcode\":\"String\",\"addr:street\":\"String\",\"amenity\":\"String\",\"building\":\"String\",\"craft\":\"String\",\"internet_access\":\"String\",\"name\":\"String\",\"opening_hours\":\"String\",\"phone\":\"String\",\"shop\":\"String\",\"tourism\":\"String\",\"website\":\"String\",\"wheelchair\":\"String\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"poi\",\"count\":4,\"geometry\":\"Point\",\"attributeCount\":17,\"attributes\":[{\"attribute\":\"@id\",\"count\":4,\"type\":\"string\",\"values\":[\"node/2683058003\",\"node/2683058052\",\"node/2683058087\",\"way/331040672\"]},{\"attribute\":\"addr:city\",\"count\":1,\"type\":\"string\",\"values\":[\"Gönnheim\"]},{\"attribute\":\"addr:country\",\"count\":1,\"type\":\"string\",\"values\":[\"DE\"]},{\"attribute\":\"addr:housenumber\",\"count\":1,\"type\":\"string\",\"values\":[\"52\"]},{\"attribute\":\"addr:postcode\",\"count\":1,\"type\":\"string\",\"values\":[\"67161\"]},{\"attribute\":\"addr:street\",\"count\":1,\"type\":\"string\",\"values\":[\"Ludwigstraße\"]},{\"attribute\":\"amenity\",\"count\":1,\"type\":\"string\",\"values\":[\"restaurant\"]},{\"attribute\":\"building\",\"count\":1,\"type\":\"string\",\"values\":[\"yes\"]},{\"attribute\":\"craft\",\"count\":1,\"type\":\"string\",\"values\":[\"winery\"]},{\"attribute\":\"internet_access\",\"count\":1,\"type\":\"string\",\"values\":[\"wlan\"]},{\"attribute\":\"name\",\"count\":4,\"type\":\"string\",\"values\":[\"Hofgut Gönnheim\",\"Landgasthof und Hotel Lamm\",\"TV Gaststätte\",\"Weinstube Eymann\"]},{\"attribute\":\"opening_hours\",\"count\":3,\"type\":\"string\",\"values\":[\"Mo-Fr 17:00+,Sa,Su 11:30-14:00,17:00+\",\"Mo-Tu 17:30-21:30;Th-Fr 17:30-21:30;Sa-Su 11:30-21:30\",\"Th-Fr 18:00-00:00; Sa 17:00-00:00\"]},{\"attribute\":\"phone\",\"count\":3,\"type\":\"string\",\"values\":[\"+49 6322 2373\",\"+49 6322 95290\",\"+49 6322 9886720\"]},{\"attribute\":\"shop\",\"count\":1,\"type\":\"string\",\"values\":[\"wine\"]},{\"attribute\":\"tourism\",\"count\":2,\"type\":\"string\",\"values\":[\"guest_house\",\"hotel\"]},{\"attribute\":\"website\",\"count\":3,\"type\":\"string\",\"values\":[\"http://www.hofgut-goennheim.de\",\"http://www.restaurant-zum-lamm.de/\",\"https://tv-goennheim.de/cms/pages/tv-gaststaette.php\"]},{\"attribute\":\"wheelchair\",\"count\":1,\"type\":\"string\",\"values\":[\"limited\"]}]}]}}"
+}
